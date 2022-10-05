@@ -7,4 +7,4 @@ Make some blinky lights blink!
 
 ## Documentation
 
-View the [live tutorial](https://lamestation-im-alive.netlify.app/).
+View the [live tutorial](https://im-alive.docs.lamestation.org/).
