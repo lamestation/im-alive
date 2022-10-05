@@ -1,0 +1,9 @@
+# python
+venv/
+
+# mkdocs
+public/
+
+# editors
+.*.swp
+.vscode/

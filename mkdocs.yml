@@ -1,0 +1,65 @@
+site_name: I'm Alive Tutorial
+site_description: Make some blinky lights blink.
+site_author: LameStation
+
+repo_name: lamestation/im-alive
+repo_url: https://github.com/lamestation/im-alive
+edit_uri: edit/main/docs/
+
+copyright: |
+  Unless otherwise noted, this work is licensed under <a rel="license" href="https://creativecommons.org/licenses/by/4.0?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">Attribution 4.0 International<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1"></a>
+
+theme:
+  name: material
+  palette:
+    scheme: default
+    primary: grey
+  logo: images/logo.png
+  favicon: images/icon.png
+  features:
+    - navigation.instant
+
+plugins:
+  - search
+
+markdown_extensions:
+  - admonition
+  - abbr
+  - attr_list
+  - def_list
+  - footnotes
+  - meta
+  - toc:
+      permalink: true
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.snippets:
+      check_paths: true
+  - pymdownx.superfences:
+  - pymdownx.tabbed
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/lamestation/assembly
+
+nav:
+  - Overview: index.md
+  - 1. Hello Nothing: 1-hello-nothing/index.md
+  - 2. Lights On: 2-lights-on/index.md
+  - 3. Lights Blinking: 3-lights-blinking/index.md
+  - 4. I'm Alive: 4-im-alive/index.md
+  - 5. Take Control: 5-take-control/index.md
